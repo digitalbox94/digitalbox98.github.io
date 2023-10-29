@@ -25,7 +25,7 @@ Hosting a Dawn of Light powered server
 Do not charge for services or the ability to connect to your server
 Do not modify the client files
 
-> warning "I am a warning 2"
+> warning "I am a warning 3"
 > The body of the warning box goes here. Premonition allows you to write any `Markdown` inside the block.
 
 
