@@ -1,0 +1,30 @@
+<html data-bs-theme="dark">
+</head>
+  <title>Document</title>
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+	<!-- {% include header.html color="blue" %} -->
+	{% include nav.html %}
+	{{ content }}
+	{% include footer.html %}
+
+<button type="button" class="btn btn-primary position-relative">
+  Inbox
+  <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+    99+
+    <span class="visually-hidden">unread messages</span>
+  </span>
+</button>
+
+<div class="btn-group" role="group" aria-label="Basic mixed styles example">
+  <button type="button" class="btn btn-danger">Left</button>
+  <button type="button" class="btn btn-warning">Middle</button>
+  <button type="button" class="btn btn-success">Right</button>
+</div>
+
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>
